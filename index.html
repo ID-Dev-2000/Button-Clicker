@@ -12,7 +12,7 @@
         <h1>Button Clicker</h1>
         <div class="buttonParent">
             <p style="margin-top: 0; margin-bottom: 5px;">Clicks: <span id="clickTracker">0</span></p>
-            <p style="margin-top: 0; margin-bottom: 5px;">Clicks Per Second: <span id="clicksPerSecond">0</span></p>
+            <p style="margin-top: 0; margin-bottom: 5px;">Clicks Boost: +<span id="clicksBoost">0</span> per click</p>
             <div class="buttonDiv">
                 <button class="buttonButton" id="buttonButton">B</button>
             </div>
@@ -22,29 +22,36 @@
                     <button class="purchaseButton" id="purchase1">Purchase</button>
                     <h5>Click Boost 1</h5>
                     <p>Cost: 10 clicks</p>
-                    <p>Per Second: 1</p>
+                    <p>Boost: +1 per click</p>
                     <p>Count: <span id="count1">0</span></p>
                 </div>
                 <div class="itemToPurchase">
                     <button class="purchaseButton" id="purchase2">Purchase</button>
                     <h5>Click Boost 2</h5>
-                    <p>Cost: 10 clicks</p>
-                    <p>Per Second: 1</p>
+                    <p>Cost: 500 clicks</p>
+                    <p>Boost: +10 per click</p>
                     <p>Count: <span id="count2">0</span></p>
                 </div>
                 <div class="itemToPurchase">
                     <button class="purchaseButton" id="purchase3">Purchase</button>
                     <h5>Click Boost 3</h5>
-                    <p>Cost: 10 clicks</p>
-                    <p>Per Second: 1</p>
+                    <p>Cost: 2,000 clicks</p>
+                    <p>Boost: +100 per click</p>
                     <p>Count: <span id="count3">0</span></p>
                 </div>
                 <div class="itemToPurchase">
                     <button class="purchaseButton" id="purchase4">Purchase</button>
                     <h5>Click Boost 4</h5>
-                    <p>Cost: 10 clicks</p>
-                    <p>Per Second: 1</p>
+                    <p>Cost: 10,000 clicks</p>
+                    <p>Boost: +1,000 per click</p>
                     <p>Count: <span id="count4">0</span></p>
+                </div>
+            </div>
+            <button style="margin-top: 5px;" id="resetButton">Reset All</button>
+            <div class="resetConfirmation" id="resetConfirmation" style="display: none;">
+                <p style="margin: 5px;">Are you sure?</p>
+                <div>
+                    <p style="margin-top: 5px;"><span id="yesSelect">Yes</span> / <span id="noSelect">No</span></p>
                 </div>
             </div>
         </div>
