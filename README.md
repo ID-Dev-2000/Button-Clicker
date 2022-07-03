@@ -1,5 +1,7 @@
 https://id-dev-2000-button-clicker.netlify.app
 
-Minimal cookie clicker clone
+Barebones cookie clicker partial-clone
 
-Functonal build
+Functional build
+
+Still a WIP
