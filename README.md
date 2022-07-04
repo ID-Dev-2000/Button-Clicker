@@ -4,4 +4,4 @@ Barebones cookie clicker partial-clone
 
 Functional build
 
-Still a WIP
+No storage methods, data refreshes per load

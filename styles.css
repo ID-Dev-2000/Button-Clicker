@@ -101,3 +101,17 @@ h1 {
 #yesSelect, #noSelect {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+    .itemContainer {
+        width: 90vw;
+    }
+
+    .itemContainer {
+        height: 400px;
+    }
+
+    .itemToPurchase {
+        height: 80px;
+    }
+}
