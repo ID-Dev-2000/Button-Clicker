@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
 main {
+    font-family: 'Noto Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,6 +14,10 @@ main {
 
 h1 {
     margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .buttonParent {
@@ -43,6 +54,7 @@ h1 {
 }
 
 .itemContainer {
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +67,7 @@ h1 {
 }
 
 .itemToPurchase {
+    background-color: white;
     width: 90%;
     height: 60px;
     border: 1px solid black;
@@ -78,14 +91,14 @@ h1 {
 }
 
 .purchaseButton {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgreen;
     border: none;
     border-right: 1px solid black;
     cursor: pointer;
 }
 
 .purchaseButton:active {
-    background-color: lightcyan;
+    background-color: rgb(133, 219, 133);
 }
 
 .itemName {
